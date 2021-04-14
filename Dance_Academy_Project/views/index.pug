@@ -1,0 +1,75 @@
+doctype html
+html 
+    head 
+        style 
+            include ../static/style.css 
+
+    body 
+        nav#navbar.top 
+            ul
+                div#logo
+                    img(src="/static/images/logo.png ", alt="")
+                    | ADA 
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Services]
+                li #[a(href='/') ClassInfo]
+                li #[a(href='/') Contact]
+
+
+        section#introsection 
+            div(class='heading1')
+                | ARCHS DANCE ACADEMY
+
+            div(class='heading2')
+                | Dance is the hidden language of the soul. 
+
+            div(class= 'author')
+                | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  – Martha Graham
+
+        section#ourmission 
+            h2 OUR MISSION
+
+            div(class="section1")
+                div(class="card")
+                    h3 Dance Perfection
+
+                    div(class="card-box")
+                        div(class="card-img")
+                            img(src="/static/images/1.png", alt="")
+                        div(class="card-content")
+                            p This is the Best dance Academy Of Banglore
+                
+                div(class="card")
+                    h3 Cultural Dance
+
+                    div(class="card-box")
+                        div(class="card-img")
+                            img(src="/static/images/2.png", alt="")
+                        div(class="card-content")
+                            p This is the Best dance Academy Of Banglore
+                  
+                
+                div(class="card")
+                    h3 Expert Teaching 
+                    
+                    div(class="card-box")
+                        div(class="card-img")
+                            img(src="/static/images/3.png", alt="")
+                        div(class="card-content")
+                            p This is the Best dance Academy Of Banglore
+                   
+        section( class = "sponsorssection" )
+            h2 Sponsers 
+            div#sponsers
+                img(src="/static/images/logo1.png", alt="Loading" class="spimage")
+                img(src="/static/images/logo2.png", alt="Loading" class="spimage")
+                img(src="/static/images/logo3.png", alt="Loading" class="spimage")
+                img(src="/static/images/logo4.png", alt="Loading" class="spimage")
+
+        footer#footer 
+            | Copyright © 2021 ARCHS DANCE ACADEMY archiesdance.com  | ALL ARE RESERVED
+
+             
+        script 
+            include ../static/index.js  
